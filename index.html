@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$ Ismail TIRYAKİ - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="matrix-bg" id="matrix"></div>
+    
+    <nav>
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <div class="terminal-button close"></div>
+                <div class="terminal-button minimize"></div>
+                <div class="terminal-button maximize"></div>
+            </div>
+            <div class="terminal-title">ismail-tiryaki@portfolio — zsh — 120x40</div>
+        </div>
+        <div class="nav-container">
+            <div class="logo">./portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobile-menu">☰</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="code-block">
+            <div class="code-header">
+                <div class="code-tabs">
+                    <div class="code-tab active">profile.js</div>
+                </div>
+            </div>
+            <div class="code-content">
+                <div class="code-line"><span class="line-number">1</span><span class="code-text"><span class="keyword">class</span> <span class="function">Developer</span> {</span></div>
+                <div class="code-line"><span class="line-number">2</span><span class="code-text">  <span class="keyword">constructor</span>() {</span></div>
+                <div class="code-line"><span class="line-number">3</span><span class="code-text">    <span class="keyword">this</span>.<span class="variable">name</span> <span class="operator">=</span> <span class="string">"İsmail TİRYAKİ"</span>;</span></div>
+                <div class="code-line"><span class="line-number">4</span><span class="code-text">    <span class="keyword">this</span>.<span class="variable">title</span> <span class="operator">=</span> <span class="string">"English Teacher & FOSS Enthusiast & Junior Developer"</span>;</span></div>
+                <div class="code-line"><span class="line-number">5</span><span class="code-text">    <span class="keyword">this</span>.<span class="variable">field</span> <span class="operator">=</span> <span class="string">"English Language Teaching"</span>;</span></div>
+                <div class="code-line"><span class="line-number">6</span><span class="code-text">  }</span></div>
+                <div class="code-line"><span class="line-number">7</span><span class="code-text"> </span></div>
+                <div class="code-line"><span class="line-number">8</span><span class="code-text">  <span class="function">getMission</span>() {</span></div>
+                <div class="code-line"><span class="line-number">9</span><span class="code-text">    <span class="keyword">return</span> <span class="string">"To build useful, community-driven tools."</span>;</span></div>
+                <div class="code-line"><span class="line-number">10</span><span class="code-text">  }</span></div>
+                <div class="code-line"><span class="line-number">11</span><span class="code-text">}</span></div>
+                <div class="code-line"><span class="line-number">12</span><span class="code-text"> </span></div>
+                <div class="code-line"><span class="line-number">13</span><span class="code-text"><span class="comment">// Let's build something amazing together!</span></span></div>
+                <div class="code-line"><span class="line-number">14</span><span class="code-text"><span class="keyword">const</span> <span class="variable">me</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="function">Developer</span>();<span class="typing-cursor"></span></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">cat about.md</p>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto; background: var(--secondary-bg); border: 1px solid var(--accent-bg); border-radius: 8px; padding: 32px;">
+            <p style="margin-bottom: 24px; color: var(--primary-text); line-height: 1.8;">
+                <span style="color: var(--success-color);">→</span> I'm a passionate developer who started coding as a hobby, currently studying <strong>English Language Teaching</strong>. I find that these two different fields give me a unique perspective on problem-solving and effective communication.
+            </p>
+            <p style="margin-bottom: 24px; color: var(--primary-text); line-height: 1.8;">
+                <span style="color: var(--success-color);">→</span> I am deeply committed to the <strong>Free and Open Source Software (FOSS)</strong> philosophy and enjoy developing projects that are freely accessible and beneficial to the community.
+            </p>
+            <p style="color: var(--primary-text); line-height: 1.8;">
+                <span style="color: var(--success-color);">→</span> When I'm not coding, I nurture my creativity in a different field by engaging in <strong>photography</strong>.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">ls -la skills/</p>
+            </div>
+            <div class="skills-code">
+    <pre style="margin: 0; font-size: 14px;"><code><span class="operator">{</span> <span class="skill-key">"frontend"</span><span class="operator">:</span> [
+
+    <span class="string">"HTML5 & CSS3"</span>,
+    <span class="string">"JavaScript (ES6+)"</span>,
+    <span class="string">"SCSS (Sass)"</span>
+
+    ] <span class="operator">}</span>
+
+
+
+    <span class="operator">{</span> <span class="skill-key">"backend"</span><span class="operator">:</span> [
+
+    <span class="string">"Node.js"</span>,
+    <span class="string">"Express.js"</span>,
+    <span class="string">"Java"</span>,
+    <span class="string">"Python3"</span>
+
+    ] <span class="operator">}</span>
+
+    <span class="operator">{</span> <span class="skill-key">"database"</span><span class="operator">:</span> [
+
+    <span class="string">"MySQL"</span>,
+    <span class="string">"MongoDB"</span>,
+    
+    ] <span class="operator">}</span>
+
+    <span class="operator">{</span> <span class="skill-key">"tools"</span><span class="operator">:</span> [
+
+    <span class="string">"Git & GitHub"</span>,
+
+    ] <span class="operator">}</span>
+    </code></pre>
+            </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="section-header">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">git log --oneline --graph</p>
+        </div>
+        <div class="projects-grid">
+            <div class="repo-card">
+                <div class="repo-header">
+                    <span class="repo-icon">📁</span>
+                    <h3 class="repo-name">LMS System</h3>
+                </div>
+                <p class="repo-description">
+                    A project developed for learning management systems, facilitating the delivery of educational materials and tracking student progress.
+                </p>
+                <div class="repo-stats">
+                    <div class="repo-stat"><span class="language-dot js"></span><span>Node.js</span></div>
+                    <div class="repo-stat"><span>🚧 In Development</span></div>
+                </div>
+            </div>
+
+            <div class="repo-card">
+                <div class="repo-header">
+                    <span class="repo-icon">🦊</span>
+                    <h3 class="repo-name">No More Reels!</h3>
+                </div>
+                <p class="repo-description">
+                    A Firefox extension that aims to provide a more conscious internet experience by blocking distracting 'Reels' and 'Shorts' feeds on social media.
+                </p>
+                <div class="repo-stats">
+                     <div class="repo-stat"><span class="language-dot js"></span><span>JavaScript</span></div>
+                     <div class="repo-stat"><span>⭐ Active</span></div>
+                </div>
+                <div class="repo-links">
+                    <a href="https://github.com/isotjs/no-more-reels" class="repo-link" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">contact --via</p>
+        </div>
+        <div class="terminal-contact">
+             <div class="terminal-header">
+                 <div class="terminal-buttons">
+                    <div class="terminal-button close"></div>
+                    <div class="terminal-button minimize"></div>
+                    <div class="terminal-button maximize"></div>
+                </div>
+                <div class="terminal-title">contact-me</div>
+            </div>
+            <div class="terminal-prompt">
+                <div class="prompt-line">
+                    <span class="prompt-symbol">❯</span>
+                    <span class="prompt-text">I'm always open to new projects and ideas.</span>
+                </div>
+                <div class="prompt-line">
+                    <span class="prompt-symbol">❯</span>
+                    <span class="prompt-text">Feel free to reach out through the channels below!</span>
+                </div>
+                <div class="contact-links">
+                    <a href="https://github.com/isotjs/" class="contact-cmd" target="_blank">open github.com/isotjs</a>
+                    <a href="https://www.linkedin.com/in/ismail-tiryaki-161398351/" class="contact-cmd" target="_blank">open linkedin.com/in/ismail-tiryaki</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>Designed & Coded by isotjs</p>
+            <p><a href="https://github.com/isotjs/ismailtiryaki" target="_blank">View Source Code on GitHub</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Matrix Rain Effect ---
+            const matrixContainer = document.getElementById('matrix');
+            if (matrixContainer) {
+                const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789<>/?;:"\'|[]{}=+-_*&^%$#@!~`';
+                const columns = Math.floor(window.innerWidth / 16);
+
+                for (let i = 0; i < columns; i++) {
+                    const column = document.createElement('div');
+                    column.className = 'matrix-column';
+                    let columnText = '';
+                    for (let j = 0; j < 50; j++) {
+                        columnText += chars.charAt(Math.floor(Math.random() * chars.length));
+                    }
+                    column.textContent = columnText;
+                    column.style.left = `${i * 16}px`;
+                    column.style.animationDuration = `${Math.random() * 10 + 5}s`;
+                    column.style.animationDelay = `${Math.random() * 5}s`;
+                    matrixContainer.appendChild(column);
+                }
+            }
+
+            // --- Mobile Menu ---
+            const mobileMenuBtn = document.getElementById('mobile-menu');
+            const navLinks = document.querySelector('.nav-links');
+            if (mobileMenuBtn && navLinks) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    navLinks.classList.toggle('active');
+                });
+
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        if (navLinks.classList.contains('active')) {
+                            navLinks.classList.remove('active');
+                        }
+                    });
+                });
+            }
+
+            // --- Fade-in on Scroll Animation ---
+            const faders = document.querySelectorAll('.fade-in');
+            
+            const appearOptions = {
+                threshold: 0.05 
+            };
+
+            const appearOnScroll = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    }
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                });
+            }, appearOptions);
+
+            faders.forEach(fader => {
+                appearOnScroll.observe(fader);
+            });
+        });
+    </script>
+</body>
+</html>
